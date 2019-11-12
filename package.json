@@ -1,0 +1,37 @@
+{
+  "name": "roles-and-claims",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Charles Onunze <charlesonunze2@gmail.com>",
+  "scripts": {
+    "start": "NODE_ENV=production pm2 start src/index.js --node-args='-r esm'",
+    "dev": "NODE_ENV=production nodemon --inspect -r esm src/index.js"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.7.1",
+    "esm": "^3.2.25",
+    "express": "^4.16.4",
+    "express-session": "^1.17.0",
+    "express-winston": "^4.0.0",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.18",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.7.1",
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}

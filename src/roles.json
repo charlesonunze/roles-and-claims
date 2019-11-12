@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5dcaeed46dff280c7edd1368"},"claims":["create_todo"],"name":"user","__v":{"$numberInt":"1"}}
+{"_id":{"$oid":"5dcaeee16dff280c7edd1369"},"claims":["create_todo","delete_todo"],"name":"admin","__v":{"$numberInt":"2"}}
