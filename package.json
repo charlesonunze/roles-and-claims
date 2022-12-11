@@ -20,7 +20,7 @@
     "dotenv": "^7.0.0",
     "ejs": "^2.7.1",
     "esm": "^3.2.25",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "express-winston": "^4.0.0",
     "helmet": "^3.16.0",
